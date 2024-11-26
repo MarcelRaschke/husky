@@ -1,38 +1,38 @@
 ![npm](https://img.shields.io/npm/dm/husky)
 
-> Ultra-fast modern native git hooks
+> 使现代的原生 Git 钩子变得简单
 
-Husky enhances your commits and more 🐶 _woof!_
+Husky 能使你的提交变得更好  🐶 _汪!_
 
-Automatically **lint your commit messages**, **code**, and **run tests** upon committing or pushing.
+在提交或推送时，自动化 **检查提交信息**、**检查代码** 和 **运行测试**。
 
-Get started [here](/get-started.md).
+从 [这里](./get-started.md) 快速开始。
 
-## Features
+[查看 v9 更新日志](https://github.com/typicode/husky/releases/tag/v9.0.1)去发现所有新特性！ 🚀
 
-- Just `2 kB` (📦 _gzipped_) with no dependencies
-- Fastest due to being lightweight (runs in `~1ms`)
-- Uses new Git feature (`core.hooksPath`)
-- Supports:
-  - macOS, Linux, Windows
-  - Git GUIs, Node version managers, custom hooks directory, nested projects, monorepos
-  - [All 13 client-side Git hooks](https://git-scm.com/docs/githooks)
+## 特性
 
-And more:
+- 仅有 `2 kB`（📦 _gzip 压缩后_），没有任何依赖。
+- 非常快（运行速度约 `~1ms`）
+- 使用新 Git 特性（`core.hooksPath`）
+- 支持：
+  - macOS、Linux、Windows
+  - Git GUI、Node 版本管理器、自定义钩子目录、嵌套项目、Monorepos
+  - [所有 13 个客户端 Git 钩子](https://git-scm.com/docs/githooks)
 
-- Branch-specific hooks
-- Use POSIX shell to script advanced cases
-- Adheres to Git's native hook organization
-- Aligns with [npm](https://docs.npmjs.com/cli/v10/using-npm/scripts#best-practices) best practices using `prepare` script
-- Opt-in/opt-out options
-- Can be globally disabled
-- User-friendly error messages
+更多：
+- Branch-specific 钩子
+- 使用 POSIX shell 为高级案例编写脚本
+- 遵循 Git 的原生钩子组织结构
+- 使用 `prepare` 脚本与 [npm](https://docs.npmjs.com/cli/v10/using-npm/scripts#best-practices) 最佳实践保持一致
+- Opt-in/opt-out 选项
+- 用户友好的报错信息
 
-## Sponsors
+## 赞助者
 
-Support this project by becoming a sponsor [here](https://github.com/sponsors/typicode) 💖
+支持这个项目来成为一个赞助者 [点击此处](https://github.com/sponsors/typicode) 💖
 
-### Special Sponsor
+### 特别赞助
 
 <p align="center">
   <a href="https://app.tea.xyz/sign-up?r=8L2HWfJB6hs">
@@ -44,8 +44,8 @@ Support this project by becoming a sponsor [here](https://github.com/sponsors/ty
 ### GitHub
 
 <p align="center">
-  <a href="./sponsorkit/sponsors.svg">
-    <img src='./sponsorkit/sponsors.svg'/>
+  <a href="../sponsorkit/sponsors.svg">
+    <img src='../sponsorkit/sponsors.svg'/>
   </a>
 </p>
 
@@ -57,11 +57,10 @@ Support this project by becoming a sponsor [here](https://github.com/sponsors/ty
 <a href="https://opencollective.com/husky/tiers/company/3/website"><img src="https://opencollective.com/husky/tiers/company/3/avatar.svg?avatarHeight=120"></a>
 <a href="https://opencollective.com/husky/tiers/company/4/website"><img src="https://opencollective.com/husky/tiers/company/4/avatar.svg?avatarHeight=120"></a>
 <a href="https://opencollective.com/husky/tiers/company/5/website"><img src="https://opencollective.com/husky/tiers/company/5/avatar.svg?avatarHeight=120"></a>
-[![image](https://github.com/user-attachments/assets/b9c5a918-70fc-4615-ae7d-e7e5bc3c66e8)](https://www.sanity.io/)
 
-## Used by
+## 谁在使用
 
-Husky is used in [**over 1.5M projects**](https://github.com/typicode/husky/network/dependents?package_id=UGFja2FnZS0xODQzNTgwNg%3D%3D) on GitHub, including:
+Husky 在 GitHub 上用于[超过 130 万个项目](https://github.com/typicode/husky/network/dependents?package_id=UGFja2FnZS0xODQzNTgwNg%3D%3D)，包括：
 
 - [vercel/next.js](https://github.com/vercel/next.js)
 - [vercel/hyper](https://github.com/vercel/hyper)
@@ -76,7 +75,7 @@ Husky is used in [**over 1.5M projects**](https://github.com/typicode/husky/netw
 - [tinyhttp/tinyhttp](https://github.com/tinyhttp/tinyhttp)
 - ...
 
-## Articles
+## 相关文章
 
-- [Why husky has dropped conventional JS config](https://blog.typicode.com/posts/husky-git-hooks-javascript-config/)
-- [Why husky doesn't autoinstall anymore](https://blog.typicode.com/posts/husky-git-hooks-autoinstall/)
+- [为什么 Husky 放弃了传统的 JS 配置](https://blog.typicode.com/posts/husky-git-hooks-javascript-config/)
+- [为什么 Husky 不再自动安装了](https://blog.typicode.com/posts/husky-git-hooks-autoinstall/)
